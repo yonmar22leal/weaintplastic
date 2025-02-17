@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'oak-sans-bold'; 
+    src: url('./oak-sans-font-family-1739714035-0/OakSans-Bold-BF648bbebd3aa23.ttf') format('truetype'); 
+    
+
+}
+
+.work {
+    text-align: center;
+}
+
+.work h2 {
+    text-align: center;
+    font-family: oak-sans-bold;
+    font-size: 45px;
+    letter-spacing: 15px;
+    margin: 0px 200px;
+    
+}
+
+.list-work-left ul, .list-work-right ul {
+    list-style-type: none;
+}
+
+.list-work-central {
+    font-family: oak-sans-bold;
+    font-size: 24px;
+}
+
+.list-work-central p {
+    color: #87c6bd;
+    font-size: 12px;
+}
+
+.list-work {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 50px;
+}
+
+
+
+.LETTERS {
+    text-align: center;
+    font-family: oak-sans-bold;
+    font-size: 36px;
+    letter-spacing: 15px;
+    margin: 200px 0px 0px 00px;
+    
+}
+
+hr {
+    border: none; 
+    height: 4px; 
+    background-color: black;
+    margin-top: 65px;
+    width: 100px;
+    justify-items: center;
+}
+
+.box-let-me{
+    margin: 50px 200px;
+    justify-items: center;
+    display: flex;
+    width: 80%;
+    justify-content: center;
+
+}
+
+.box-let-me-left{
+    background-color: #f3f3f3;
+    width: 460px;
+    height: 550px;
+    text-align: center;
+    font-family: oak-sans-bold;
+    font-size: 32px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.box-let-me-right {
+    
+    display: flex;
+    margin: 20px;
+    justify-content: space-evenly;
+    
+    
+}
+
+.box-let-me-right h4 {
+    font-family: oak-sans-bold;
+    font-size: 22px;
+    margin: 0;
+    letter-spacing: 3px;
+    
+}
+
+.box-let-me-right h5 {
+    font-family: oak-sans-bold;
+    font-size: 12px;
+    margin: 0;
+    
+}
+
+.box-let-me-left h6 {
+    color: #87c6bd;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin: 0;
+    
+
+}
+
+.box-let-me-right p {
+    font-family: "Plantin Light", serif;
+    font-size: 16px;
+    line-height: 1.85em;
+    letter-spacing: 1px;
+    
+}
+
+.box-let-me-left h2 {
+    margin: 0;
+
+}
+
+.box-let-me-left p{
+    font-size: 16px;
+
+}
+
+.box-column-left-bottom h4{
+    color: #87c6bd;
+}
+
+.box-column-left-top,.box-column-left-bottom,.box-column-right-top,.box-column-right-bottom {
+    margin: 15px;
+    
+}
+
+.box-column-left, .box-column-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start
+}
